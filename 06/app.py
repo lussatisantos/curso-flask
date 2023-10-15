@@ -1,12 +1,9 @@
-# Metodos HTTP
-
+#Arquivo WEB estaticos
 from flask import Flask
 
 app = Flask(__name__, static_folder='public')
 
-@app.route('/add', methods=["GET","POST"])
-def add():
-    return 'OKK'
+
 
 if __name__ == '__main__':
     app.run()
