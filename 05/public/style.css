@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+input {
+    border-radius: 7px;
+    margin: 4px;
+    padding: 4px;
+}
+
+button {
+    margin: 4px;
+    padding: 4px;
+    border-radius: 7px;
+}
