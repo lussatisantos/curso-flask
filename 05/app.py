@@ -4,7 +4,7 @@ from flask import Flask
 
 app = Flask(__name__, static_folder='public')
 
-@app.route('/add', methods=["GET","POST"])
+@app.route('/add/', methods=["POST"])
 def add():
     return 'OKK'
 
